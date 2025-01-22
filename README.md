@@ -1,19 +1,14 @@
-# BigQuery: Qwik Start - Console - GSP072
+# BigQuery: Qwik Start - Console || [GSP072](https://www.cloudskillsboost.google/focuses/1145?parent=catalog) ||
 
-## Tasks
-- Query a public dataset
-- Create a new dataset
-- Load data into a new table
-- Query a custom table
+## Solution [here](https://youtu.be/C7erQrEkmsA)
 
 
-### 1. Open BIgquery
-### 2. Compose new query
-```sql
-#standardSQL
-SELECT
- weight_pounds, state, year, gestation_weeks
-FROM
- 'bigquery-public-data.samples.natality'
-ORDER BY weight_pounds DESC LIMIT 10;```
-jjs
+```
+curl -LO raw.githubusercontent.com/elsouleymane/cloud-minions/main/BigQuery%20Qwik%20Start%20-%20Console/gsp072.sh
+
+sudo chmod +x gsp072.sh
+
+./gsp072.sh 
+```
+
+### Congratulations !!
